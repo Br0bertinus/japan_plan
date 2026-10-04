@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-03T23:16:30.117Z",
+  "title": "Design System: Japan Trip Route Prototype",
+  "extensions": {
+    "colorMeta": {
+      "carbon-ink": {
+        "role": "primary",
+        "displayName": "Carbon Ink",
+        "canonical": "#182a2e",
+        "tonalRamp": [
+          "oklch(15% 0.025 213.2)",
+          "oklch(27% 0.025 213.2)",
+          "oklch(39% 0.025 213.2)",
+          "oklch(51% 0.025 213.2)",
+          "oklch(63% 0.025 213.2)",
+          "oklch(75% 0.025 213.2)",
+          "oklch(87% 0.025 213.2)",
+          "oklch(95% 0.025 213.2)"
+        ]
+      },
+      "punched-paper": {
+        "role": "primary",
+        "displayName": "Punched Paper",
+        "canonical": "#f0eddf",
+        "tonalRamp": [
+          "oklch(15% 0.019 96.9)",
+          "oklch(27% 0.019 96.9)",
+          "oklch(39% 0.019 96.9)",
+          "oklch(51% 0.019 96.9)",
+          "oklch(63% 0.019 96.9)",
+          "oklch(75% 0.019 96.9)",
+          "oklch(87% 0.019 96.9)",
+          "oklch(95% 0.019 96.9)"
+        ]
+      },
+      "paper-shadow": {
+        "role": "neutral",
+        "displayName": "Paper Shadow",
+        "canonical": "#d9d5c8",
+        "tonalRamp": [
+          "oklch(15% 0.018 92.7)",
+          "oklch(27% 0.018 92.7)",
+          "oklch(39% 0.018 92.7)",
+          "oklch(51% 0.018 92.7)",
+          "oklch(63% 0.018 92.7)",
+          "oklch(75% 0.018 92.7)",
+          "oklch(87% 0.018 92.7)",
+          "oklch(95% 0.018 92.7)"
+        ]
+      },
+      "timetable-blue": {
+        "role": "primary",
+        "displayName": "Timetable Blue",
+        "canonical": "#245f73",
+        "tonalRamp": [
+          "oklch(15% 0.068 223.8)",
+          "oklch(27% 0.068 223.8)",
+          "oklch(39% 0.068 223.8)",
+          "oklch(51% 0.068 223.8)",
+          "oklch(63% 0.068 223.8)",
+          "oklch(75% 0.068 223.8)",
+          "oklch(87% 0.068 223.8)",
+          "oklch(95% 0.068 223.8)"
+        ]
+      },
+      "oxidized-green": {
+        "role": "secondary",
+        "displayName": "Oxidized Green",
+        "canonical": "#66864b",
+        "tonalRamp": [
+          "oklch(15% 0.092 131.9)",
+          "oklch(27% 0.092 131.9)",
+          "oklch(39% 0.092 131.9)",
+          "oklch(51% 0.092 131.9)",
+          "oklch(63% 0.092 131.9)",
+          "oklch(75% 0.092 131.9)",
+          "oklch(87% 0.092 131.9)",
+          "oklch(95% 0.092 131.9)"
+        ]
+      },
+      "ticket-coral": {
+        "role": "secondary",
+        "displayName": "Ticket Coral",
+        "canonical": "#e45d42",
+        "tonalRamp": [
+          "oklch(15% 0.174 33.1)",
+          "oklch(27% 0.174 33.1)",
+          "oklch(39% 0.174 33.1)",
+          "oklch(51% 0.174 33.1)",
+          "oklch(63% 0.174 33.1)",
+          "oklch(75% 0.174 33.1)",
+          "oklch(87% 0.174 33.1)",
+          "oklch(95% 0.174 33.1)"
+        ]
+      },
+      "route-violet": {
+        "role": "secondary",
+        "displayName": "Route Violet",
+        "canonical": "#7b6ca8",
+        "tonalRamp": [
+          "oklch(15% 0.092 294.8)",
+          "oklch(27% 0.092 294.8)",
+          "oklch(39% 0.092 294.8)",
+          "oklch(51% 0.092 294.8)",
+          "oklch(63% 0.092 294.8)",
+          "oklch(75% 0.092 294.8)",
+          "oklch(87% 0.092 294.8)",
+          "oklch(95% 0.092 294.8)"
+        ]
+      },
+      "stamp-yellow": {
+        "role": "secondary",
+        "displayName": "Stamp Yellow",
+        "canonical": "#ffca4b",
+        "tonalRamp": [
+          "oklch(15% 0.151 85.5)",
+          "oklch(27% 0.151 85.5)",
+          "oklch(39% 0.151 85.5)",
+          "oklch(51% 0.151 85.5)",
+          "oklch(63% 0.151 85.5)",
+          "oklch(75% 0.151 85.5)",
+          "oklch(87% 0.151 85.5)",
+          "oklch(95% 0.151 85.5)"
+        ]
+      },
+      "timetable-gold": {
+        "role": "secondary",
+        "displayName": "Timetable Gold",
+        "canonical": "#dfaa31",
+        "tonalRamp": [
+          "oklch(15% 0.143 83.3)",
+          "oklch(27% 0.143 83.3)",
+          "oklch(39% 0.143 83.3)",
+          "oklch(51% 0.143 83.3)",
+          "oklch(63% 0.143 83.3)",
+          "oklch(75% 0.143 83.3)",
+          "oklch(87% 0.143 83.3)",
+          "oklch(95% 0.143 83.3)"
+        ]
+      },
+      "line-hibiya": {
+        "role": "secondary",
+        "displayName": "Hibiya Gray",
+        "canonical": "#9caeb7",
+        "tonalRamp": [
+          "oklch(15% 0.013 170.1)",
+          "oklch(27% 0.013 170.1)",
+          "oklch(39% 0.013 170.1)",
+          "oklch(51% 0.013 170.1)",
+          "oklch(63% 0.013 170.1)",
+          "oklch(75% 0.013 170.1)",
+          "oklch(87% 0.013 170.1)",
+          "oklch(95% 0.013 170.1)"
+        ]
+      },
+      "line-asakusa": {
+        "role": "secondary",
+        "displayName": "Asakusa Rose",
+        "canonical": "#e85298",
+        "tonalRamp": [
+          "oklch(15% 0.128 8.8)",
+          "oklch(27% 0.128 8.8)",
+          "oklch(39% 0.128 8.8)",
+          "oklch(51% 0.128 8.8)",
+          "oklch(63% 0.128 8.8)",
+          "oklch(75% 0.128 8.8)",
+          "oklch(87% 0.128 8.8)",
+          "oklch(95% 0.128 8.8)"
+        ]
+      },
+      "line-fukutoshin": {
+        "role": "secondary",
+        "displayName": "Fukutoshin Brown",
+        "canonical": "#bb641d",
+        "tonalRamp": [
+          "oklch(15% 0.065 64.1)",
+          "oklch(27% 0.065 64.1)",
+          "oklch(39% 0.065 64.1)",
+          "oklch(51% 0.065 64.1)",
+          "oklch(63% 0.065 64.1)",
+          "oklch(75% 0.065 64.1)",
+          "oklch(87% 0.065 64.1)",
+          "oklch(95% 0.065 64.1)"
+        ]
+      },
+      "line-yurikamome": {
+        "role": "secondary",
+        "displayName": "Yurikamome Blue",
+        "canonical": "#397da0",
+        "tonalRamp": [
+          "oklch(15% 0.087 233.8)",
+          "oklch(27% 0.087 233.8)",
+          "oklch(39% 0.087 233.8)",
+          "oklch(51% 0.087 233.8)",
+          "oklch(63% 0.087 233.8)",
+          "oklch(75% 0.087 233.8)",
+          "oklch(87% 0.087 233.8)",
+          "oklch(95% 0.087 233.8)"
+        ]
+      },
+      "map-ground": {
+        "role": "neutral",
+        "displayName": "Map Ground",
+        "canonical": "#e3e4d4",
+        "tonalRamp": [
+          "oklch(15% 0.024 105)",
+          "oklch(27% 0.024 105)",
+          "oklch(39% 0.024 105)",
+          "oklch(51% 0.024 105)",
+          "oklch(63% 0.024 105)",
+          "oklch(75% 0.024 105)",
+          "oklch(87% 0.024 105)",
+          "oklch(95% 0.024 105)"
+        ]
+      },
+      "map-water": {
+        "role": "secondary",
+        "displayName": "Map Water",
+        "canonical": "#a9c7c8",
+        "tonalRamp": [
+          "oklch(15% 0.04 197)",
+          "oklch(27% 0.04 197)",
+          "oklch(39% 0.04 197)",
+          "oklch(51% 0.04 197)",
+          "oklch(63% 0.04 197)",
+          "oklch(75% 0.04 197)",
+          "oklch(87% 0.04 197)",
+          "oklch(95% 0.04 197)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Departure Display",
+        "purpose": "Giant first-view and route-defining statements."
+      },
+      "headline": {
+        "displayName": "Stop Headline",
+        "purpose": "Major scene, stop, and decision headings."
+      },
+      "title": {
+        "displayName": "Ledger Title",
+        "purpose": "Place names and option headings inside working sheets."
+      },
+      "body": {
+        "displayName": "Planning Copy",
+        "purpose": "Readable context, comparison, and evidence language."
+      },
+      "label": {
+        "displayName": "Transit Label",
+        "purpose": "Station stamps, route codes, statuses, and compact controls."
+      }
+    },
+    "shadows": [
+      {
+        "name": "small-slip",
+        "value": "4px 5px 0 rgba(24, 42, 46, 0.24)",
+        "purpose": "Tooltips and compact paper labels."
+      },
+      {
+        "name": "ticket-lift",
+        "value": "8px 9px 0 rgba(24, 42, 46, 0.24)",
+        "purpose": "Tickets and small transport objects."
+      },
+      {
+        "name": "ledger-lift",
+        "value": "9px 11px 0 rgba(24, 42, 46, 0.15)",
+        "purpose": "Working ledgers and decision sheets."
+      },
+      {
+        "name": "map-lift",
+        "value": "10px 12px 0 rgba(24, 42, 46, 0.15)",
+        "purpose": "Large illustrated maps."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-quick",
+        "value": "180ms ease",
+        "purpose": "Color, opacity, and compact selection changes."
+      },
+      {
+        "name": "sheet-lift",
+        "value": "240ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Physical lift and placement changes on paper choices."
+      },
+      {
+        "name": "travel-shift",
+        "value": "500ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Traveler convoy and large route transitions."
+      },
+      {
+        "name": "route-trace",
+        "value": "900ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Drawing a journey path into view."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1050px"
+      },
+      {
+        "name": "mobile-route",
+        "value": "780px"
+      },
+      {
+        "name": "narrow-sheet",
+        "value": "480px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Planning Association Tabs",
+      "kind": "tabs",
+      "description": "A two-state ruled control that keeps the Chubu-Sangaku visit open between a separate cabin outing and access during the onsen leg.",
+      "html": "<div class=\"ds-alps-plan-tabs\" role=\"tablist\" aria-label=\"Choose an Alps planning association\"><button role=\"tab\" aria-selected=\"true\"><b>A</b><span>CABIN OUTING</span></button><button role=\"tab\" aria-selected=\"false\"><b>B</b><span>ONSEN PAIRING</span></button></div>",
+      "css": ".ds-alps-plan-tabs { display: grid; grid-template-columns: 1fr 1fr; border: 2px solid var(--ink, #182a2e); } .ds-alps-plan-tabs button { display: grid; min-height: 54px; grid-template-columns: 28px 1fr; align-items: center; gap: 8px; padding: 9px 11px; color: var(--ink, #182a2e); text-align: left; background: rgba(255,250,240,.66); border: 0; border-right: 1px solid var(--ink, #182a2e); cursor: pointer; } .ds-alps-plan-tabs button:last-child { border-right: 0; } .ds-alps-plan-tabs button:hover, .ds-alps-plan-tabs button[aria-selected=\"true\"] { background: #ffca4b; } .ds-alps-plan-tabs button:focus-visible { outline: 3px solid #ffca4b; outline-offset: 4px; }"
+    },
+    {
+      "name": "Map Provenance Note",
+      "kind": "card",
+      "description": "A compact ruled record of the official geography source, edition, projection, and topology-preserving processing method.",
+      "html": "<dl class=\"ds-ward-method\"><div><dt>SOURCE</dt><dd>MLIT National Land Numerical Information · N03</dd></div><div><dt>PROJECTION</dt><dd>WGS 84 / UTM zone 54N (EPSG:32654)</dd></div><div><dt>PROCESSING</dt><dd>Shared topology · weighted simplification · no hand tracing</dd></div></dl>",
+      "css": ".ds-ward-method { display: grid; gap: 8px; margin: 0; padding: 11px 0; color: var(--ink, #182a2e); border-top: 1px solid rgba(24, 42, 46, 0.22); border-bottom: 1px solid rgba(24, 42, 46, 0.22); font-family: \"Yu Gothic UI\", Meiryo, sans-serif; } .ds-ward-method div { display: grid; grid-template-columns: 82px 1fr; gap: 10px; } .ds-ward-method dt { font-size: 0.58rem; font-weight: 900; letter-spacing: 0.06em; text-transform: uppercase; } .ds-ward-method dd { margin: 0; font-size: 0.66rem; line-height: 1.4; }"
+    },
+    {
+      "name": "Central Japan Route Map",
+      "kind": "custom",
+      "description": "A projected official-data regional map with complete Niigata, a 100-mile scale, one diamond stop-marker language, a minimal key, and browser-composed cached road routes.",
+      "html": "<figure class=\"ds-central-map\"><img src=\"/maps/central-japan-concept-map.svg\" alt=\"Central Japan map with four middle-route stops and Chubu-Sangaku National Park\"/><figcaption>© OpenStreetMap contributors · MLIT / MOE</figcaption></figure>",
+      "css": ".ds-central-map { margin: 0; color: var(--ink, #182a2e); background: var(--paper, #f0eddf); border: 2px solid var(--paper, #f0eddf); box-shadow: 14px 16px 0 rgba(7,23,27,.42); } .ds-central-map img { display: block; width: 100%; height: auto; } .ds-central-map figcaption { padding: 10px 12px; border-top: 1px solid var(--ink, #182a2e); font-size: .68rem; line-height: 1.45; }"
+    },
+    {
+      "name": "Unified Travel Order",
+      "kind": "custom",
+      "description": "One compact route-ledger list containing every optional middle stop. Selected rows stay numbered above a Not in route divider; Add and Remove move the same row without duplication.",
+      "html": "<section class=\"ds-travel-order\"><header><div><h3>TRAVEL ORDER</h3><span>2 SELECTED</span></div><button>RESET ROUTE</button></header><ol><li><b>1</b><span>Lake Nojiri<small>Nagano cabin area</small></span><div><button aria-label=\"Move Lake Nojiri earlier\">↑</button><button aria-label=\"Move Lake Nojiri later\">↓</button><button>REMOVE</button></div></li></ol><div class=\"ds-travel-order-divider\"><b>NOT IN ROUTE</b><small>2 AVAILABLE</small></div><ul><li><i></i><span>Shirahone Onsen<small>Nagano</small></span><button>ADD</button></li></ul></section>",
+      "css": ".ds-travel-order { padding: 15px; color: var(--ink, #182a2e); background: color-mix(in srgb, var(--paper, #f0eddf) 88%, white); border: 2px solid var(--ink, #182a2e); } .ds-travel-order header, .ds-travel-order header>div, .ds-travel-order-divider { display: flex; align-items: center; justify-content: space-between; gap: 10px; } .ds-travel-order ol, .ds-travel-order ul { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; } .ds-travel-order li { display: grid; min-height: 48px; grid-template-columns: 28px minmax(0,1fr) auto; gap: 9px; align-items: center; padding: 7px 8px; border: 1px solid rgba(24,42,46,.24); } .ds-travel-order li small { display: block; color: var(--blue, #245f73); } .ds-travel-order button { min-height: 36px; border: 1px solid var(--ink, #182a2e); } .ds-travel-order-divider { margin: 10px 0 6px; padding-top: 8px; border-top: 1px solid rgba(24,42,46,.32); }"
+    },
+    {
+      "name": "Onsen Route Decision Ledger",
+      "kind": "tabs",
+      "description": "A three-view ruled comparison for no-car access, a car already at the cabin, and onward travel to Kyoto or Tokyo, using current-service estimates without implying May / June 2027 timetable certainty.",
+      "html": "<section class=\"ds-route-decision\"><div role=\"tablist\" aria-label=\"Compare route assumptions\"><button role=\"tab\" aria-selected=\"true\">NO CAR</button><button role=\"tab\" aria-selected=\"false\">CAR AT CABIN</button><button role=\"tab\" aria-selected=\"false\">NEXT CITY</button></div><div role=\"tabpanel\"><button aria-pressed=\"true\">SHIRAHONE · 4:00-5:00</button><button aria-pressed=\"false\">OKUHIDA / HIRAYU · 3:35-4:30</button><footer>Current 2026 services · recheck 30-60 days before travel</footer></div></section>",
+      "css": ".ds-route-decision { color: var(--ink, #182a2e); background: var(--paper, #f0eddf); border: 2px solid var(--ink, #182a2e); } .ds-route-decision [role=\"tablist\"] { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 2px solid var(--ink, #182a2e); } .ds-route-decision button { min-height: 44px; color: inherit; background: transparent; border: 0; border-right: 1px solid var(--ink, #182a2e); font-weight: 900; } .ds-route-decision button:last-child { border-right: 0; } .ds-route-decision button[aria-selected=\"true\"], .ds-route-decision button[aria-pressed=\"true\"] { background: #ffca4b; } .ds-route-decision footer { padding: 8px 10px; color: var(--paper, #f0eddf); background: var(--ink, #182a2e); font-size: .68rem; }"
+    },
+    {
+      "name": "Travel Dates Planner",
+      "kind": "custom",
+      "description": "A guided May / June 2027 shared hotel-range calendar with check-in then check-out selection, strict ordering, explicit IN and OUT boundaries, and a computed night count.",
+      "html": "<section class=\"ds-travel-dates\"><section class=\"stay-range-controls\"><h3>FIRST CLICK: HOTEL CHECK-IN</h3><dl><div><dt>CHECK-IN</dt><dd>Not selected</dd></div><div><dt>CHECK-OUT</dt><dd>Not selected</dd></div></dl></section><div class=\"month-grid\"><table><caption>MAY 2027</caption>…date buttons and stay range…</table><table><caption>JUNE 2027</caption>…date buttons and stay range…</table></div><output><strong>JAPAN HOTEL STAY</strong><span>May 12–June 13, 2027 · 32 nights</span></output></section>",
+      "css": ".ds-travel-dates { padding: 48px; color: var(--ink, #182a2e); background: var(--paper-deep, #d9d5c8); } .ds-travel-dates .month-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; } .ds-travel-dates table { width: 100%; table-layout: fixed; border-collapse: collapse; background: var(--paper, #f0eddf); border: 2px solid var(--ink, #182a2e); box-shadow: 8px 9px 0 rgba(24,42,46,.16); } .ds-travel-dates td button { width: 100%; min-height: 72px; color: inherit; background: transparent; border: 0; cursor: pointer; } .ds-travel-dates td.is-stay-night button { background: color-mix(in srgb, #66864b 24%, var(--paper, #f0eddf)); } .ds-travel-dates td.is-check-in button { background: #ffca4b; } .ds-travel-dates td.is-check-out button { color: var(--paper, #f0eddf); background: #e45d42; } .ds-travel-dates output { display: grid; margin-top: 24px; padding: 17px 19px; background: #ffca4b; border: 2px solid var(--ink, #182a2e); } @media (max-width: 780px) { .ds-travel-dates { padding: 48px 20px; } .ds-travel-dates .month-grid { grid-template-columns: 1fr; } }"
+    },
+    {
+      "name": "Station Stamp",
+      "kind": "chip",
+      "refersTo": "station-stamp",
+      "description": "A compact route code or scene-status label.",
+      "html": "<span class=\"ds-station-stamp\">TOKYO · ARRIVAL</span>",
+      "css": ".ds-station-stamp { display: inline-block; width: fit-content; padding: 8px 12px 7px; color: var(--paper, #f0eddf); background: var(--ink, #182a2e); border-radius: 0; font-family: \"Bahnschrift Condensed\", \"Yu Gothic UI\", sans-serif; font-size: 0.68rem; font-weight: 900; letter-spacing: 0.1em; line-height: 1; text-transform: uppercase; }"
+    },
+    {
+      "name": "Tokyo Ward and Rail Map",
+      "kind": "custom",
+      "description": "The official 23-special-ward map generated from MLIT N03 geometry and overlaid with rail geometry clipped to the dissolved ward union, ten orientation hubs, six stay-decision station markers, five official-source hotel points, a computed hotel-decision baseline, and a full-context overview.",
+      "html": "<figure class=\"ds-tokyo-map\"><div class=\"map-zoom-bar\">…80% overview; 100%, 140%, 180%, and 220% decision controls…</div><div class=\"map-viewport\"><svg viewBox=\"144.9 200.6 495.8 357\" role=\"img\" aria-label=\"Tokyo wards, rail context, and hotel candidates\"><rect width=\"1000\" height=\"720\" class=\"water\"/><g class=\"context\">…generated surrounding administrative paths…</g><g class=\"wards\">…23 generated official ward paths…</g><g class=\"rail-routes\">…routes clipped to the official ward union…</g><g class=\"ward-boundaries\">…boundary overlay…</g><g class=\"stations\">…source-derived station markers…</g><g class=\"hotel-pins\">…five projected hotel points…</g><g class=\"labels\">…focus-ward annotations…</g></svg></div><div class=\"rail-legend\">…base-route selector plus secondary hotel-access legend…</div><figcaption>Official ward, rail, station, and hotel-point geometry; the Tomigaya and Daita halos are editorial.</figcaption></figure>",
+      "css": ".ds-tokyo-map { width: min(100%, 1000px); overflow: hidden; background: var(--map-water, #a9c7c8); border: 2px solid var(--ink, #182a2e); box-shadow: 10px 12px 0 rgba(24, 42, 46, 0.15); } .ds-tokyo-map svg { display: block; width: 100%; aspect-ratio: 1000 / 720; } .ds-tokyo-map .rail-route path { fill: none; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; } .ds-tokyo-map .rail-route .casing { stroke: rgba(240,237,223,.82); stroke-width: 5.2; opacity: .42; } .ds-tokyo-map .rail-route .line { stroke-width: 2.2; opacity: .33; } .ds-tokyo-map .rail-route.priority .line { stroke-width: 3.5; opacity: .78; } .ds-tokyo-map .rail-route.active .line { stroke-width: 6.2; opacity: 1; } .ds-tokyo-map .ward-boundaries path { fill: none; stroke: rgba(24,42,46,.66); stroke-width: .9; vector-effect: non-scaling-stroke; } .ds-tokyo-map figcaption { padding: 10px 12px 11px; color: var(--ink, #182a2e); background: var(--paper, #f0eddf); border-top: 1px solid var(--ink, #182a2e); font-size: .68rem; line-height: 1.45; }"
+    },
+    {
+      "name": "Map Scale Controls",
+      "kind": "button-group",
+      "description": "A ruled instrument bar with an 80% full-ward overview, a generated 100% hotel-decision baseline, three closer levels, and reset controls that return to the centered decision view.",
+      "html": "<div class=\"ds-map-zoom-bar\"><span>MAP SCALE</span><div role=\"group\" aria-label=\"Tokyo map zoom\"><button aria-label=\"Zoom map out\">−</button><output aria-live=\"polite\">100%</output><button aria-label=\"Zoom map in\">+</button><button>RESET</button></div></div>",
+      "css": ".ds-map-zoom-bar { display: flex; min-height: 48px; align-items: center; justify-content: space-between; padding: 6px 8px 6px 12px; color: var(--ink, #182a2e); background: var(--paper, #f0eddf); border-bottom: 1px solid var(--ink, #182a2e); } .ds-map-zoom-bar > span { font-size: .61rem; font-weight: 900; letter-spacing: .08em; } .ds-map-zoom-bar div { display: flex; border: 1px solid var(--ink, #182a2e); } .ds-map-zoom-bar button, .ds-map-zoom-bar output { display: grid; min-width: 40px; min-height: 36px; place-items: center; padding: 4px 9px; color: var(--ink, #182a2e); background: transparent; border: 0; border-left: 1px solid var(--ink, #182a2e); font-weight: 900; } .ds-map-zoom-bar output { min-width: 54px; color: var(--paper, #f0eddf); background: var(--ink, #182a2e); } @media (max-width: 780px) { .ds-map-zoom-bar button, .ds-map-zoom-bar output { min-height: 44px; } }"
+    },
+    {
+      "name": "Rail Route Selector",
+      "kind": "tabs",
+      "description": "A compact ruled legend that exposes seven priority routes, discloses seven contextual routes, and isolates one route without changing its geometry.",
+      "html": "<div class=\"ds-rail-legend\" aria-label=\"Rail route focus\"><button type=\"button\" aria-pressed=\"true\"><i></i><span>Yamanote</span></button><details><summary>Other Metro & Toei lines</summary>…route buttons…</details><p aria-live=\"polite\">JR East · JR Yamanote Line</p></div>",
+      "css": ".ds-rail-legend { padding: 10px 12px 11px; color: var(--ink, #182a2e); background: var(--paper, #f0eddf); border-top: 1px solid var(--ink, #182a2e); } .ds-rail-legend button { display: flex; min-height: 34px; align-items: center; gap: 7px; padding: 5px 7px; color: var(--ink, #182a2e); background: transparent; border: 1px solid rgba(24,42,46,.22); cursor: pointer; font-weight: 850; } .ds-rail-legend button:hover, .ds-rail-legend button[aria-pressed=\"true\"] { color: var(--paper, #f0eddf); background: var(--ink, #182a2e); } .ds-rail-legend button:focus-visible { outline: 3px solid #ffca4b; outline-offset: 4px; }"
+    },
+    {
+      "name": "Ward Annotation",
+      "kind": "custom",
+      "description": "A non-interactive leader-line annotation that names an official ward and, beneath it, the popular planning area associated with that ward.",
+      "html": "<g class=\"ds-ward-label\"><line x1=\"0\" y1=\"0\" x2=\"-62\" y2=\"-25\"/><circle r=\"4\"/><text transform=\"translate(-62 -25)\"><tspan x=\"0\" y=\"-8\">CHIYODA</tspan><tspan x=\"0\" y=\"9\">Tokyo Station / central core</tspan></text></g>",
+      "css": ".ds-ward-label line { stroke: var(--ink, #182a2e); stroke-width: 1; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; } .ds-ward-label circle { fill: #ffca4b; stroke: var(--ink, #182a2e); stroke-width: 1.5; vector-effect: non-scaling-stroke; } .ds-ward-label text { fill: var(--ink, #182a2e); stroke: rgba(240,237,223,.94); stroke-width: 3px; paint-order: stroke; font-family: \"Bahnschrift Condensed\", \"Yu Gothic UI\", sans-serif; font-weight: 900; letter-spacing: .7px; text-anchor: middle; } .ds-ward-label tspan:first-child { font-size: 15px; } .ds-ward-label tspan:last-child { font-size: 11.5px; letter-spacing: .25px; }"
+    },
+    {
+      "name": "Mobile Map Pan Treatment",
+      "kind": "custom",
+      "description": "Below 780px, the map uses a bounded two-axis touch viewport around an 860px base SVG with four scale levels and 44px controls.",
+      "html": "<figure class=\"ds-tokyo-map ds-tokyo-map-mobile\"><div class=\"map-zoom-bar\">…touch-sized scale controls…</div><div class=\"map-viewport\"><svg viewBox=\"0 0 1000 720\">…official ward map…</svg></div><figcaption>…<span>Use the scale controls, then swipe or scroll the map to inspect details.</span></figcaption></figure>",
+      "css": "@media (max-width: 780px) { .ds-tokyo-map-mobile .map-viewport { height: clamp(430px, 74vh, 620px); overflow: auto; overscroll-behavior: contain; scrollbar-color: var(--ink, #182a2e) var(--paper-deep, #d9d5c8); } .ds-tokyo-map-mobile svg { width: 860px; max-width: none; height: auto; } .ds-tokyo-map-mobile .map-zoom-bar button, .ds-tokyo-map-mobile .map-zoom-bar output { min-height: 44px; } .ds-tokyo-map-mobile figcaption span { display: block; margin-top: 4px; color: var(--blue, #245f73); } }"
+    },
+    {
+      "name": "Tokyo Stay Decision",
+      "kind": "tabs",
+      "description": "A two-step punched-paper decision ledger that selects one of five verified hotels, then reveals Kate's concise Planning take, a canonical official-site link, and disclosed verified context. Optional curated local-image data is supported but absent.",
+      "html": "<aside class=\"ds-tokyo-stay\"><div role=\"tablist\" aria-label=\"Choose a Tokyo stay experience\">…two experience tabs…</div><section role=\"tabpanel\"><div class=\"hotel-options\">…five hotel choices across the two paths…</div><article class=\"hotel-detail\"><header>SELECTED FOR DISCUSSION · HOTEL NAME</header><section aria-label=\"Kate's working assessment\"><span>PLANNING TAKE</span><div><h5>Pros</h5><ul>…</ul><h5>Tradeoffs</h5><ul>…</ul></div></section><a target=\"_blank\" rel=\"noreferrer\" aria-label=\"Official website for hotel name (opens in a new tab)\">Official website ↗</a><details><summary>Verified location and transit context</summary>…</details></article></section></aside>",
+      "css": ".ds-tokyo-stay { width: min(360px, 100%); padding: 18px; color: var(--ink, #182a2e); background: #f8f3df; border: 2px solid var(--ink, #182a2e); box-shadow: 9px 11px 0 rgba(24,42,46,.15); } .ds-tokyo-stay [role=\"tablist\"] { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--ink, #182a2e); } .ds-tokyo-stay button { min-height: 48px; color: inherit; background: transparent; border: 0; cursor: pointer; font-weight: 900; text-align: left; } .ds-tokyo-stay button[aria-selected=\"true\"], .ds-tokyo-stay button[aria-pressed=\"true\"] { background: #ffca4b; } .ds-tokyo-stay footer { margin-top: 10px; padding: 8px; color: var(--paper, #f0eddf); background: var(--ink, #182a2e); font-size: .62rem; font-weight: 900; }"
+    },
+    {
+      "name": "Field Note",
+      "kind": "card",
+      "description": "A ruled paper note that keeps candidate stops, desired experiences, and unresolved itinerary associations visibly separate.",
+      "html": "<article class=\"ds-field-note\"><span>FIELD NOTE · ROUTE OPEN</span><h3>Chubu-Sangaku</h3><p>Keep the desired Alps experience visible without assigning it to an unconfirmed stop.</p></article>",
+      "css": ".ds-field-note { width: min(360px, 100%); padding: 28px 28px 22px; color: var(--ink, #182a2e); background: linear-gradient(90deg, transparent 0 46px, rgba(228, 93, 66, 0.45) 46px 48px, transparent 48px), repeating-linear-gradient(0deg, #f3eedb 0 34px, rgba(36, 95, 115, 0.24) 35px 36px); border: 2px solid var(--ink, #182a2e); border-radius: 0; box-shadow: 8px 10px 0 rgba(24, 42, 46, 0.16); transform: rotate(-0.8deg); font-family: \"Yu Gothic UI\", Meiryo, sans-serif; } .ds-field-note > span { padding-left: 36px; font-size: 0.64rem; font-weight: 900; letter-spacing: 0.1em; } .ds-field-note h3 { margin: 34px 0 28px; padding-left: 36px; font-family: \"Bahnschrift Condensed\", \"Yu Gothic UI\", sans-serif; font-size: 2.5rem; letter-spacing: -0.035em; line-height: 0.95; } .ds-field-note p { min-height: 55px; margin: 0; padding-left: 36px; line-height: 1.4; } .ds-field-note b { display: block; color: var(--blue, #245f73); font-size: 0.66rem; letter-spacing: 0.08em; }"
+    },
+    {
+      "name": "Section Sticky Note",
+      "kind": "card",
+      "refersTo": "sticky-note",
+      "description": "A local folded-paper note rendered in one body-level overlay above section stacking contexts. Each note has a two-row control bar with a visible drag handle, section movement, color selector, always-visible Delete control, autosaving text, and non-modal Undo. Delete focuses the nearest remaining note; Undo restores the exact note and focuses it.",
+      "html": "<div class=\"ds-sticky-notes-layer\"><article class=\"ds-sticky-note\"><header><button aria-label=\"Move note\">⠿</button><span>TOKYO HOTEL</span><div>…section, color, and Delete controls…</div></header><textarea aria-label=\"Local note for Tokyo hotel\"></textarea></article></div>",
+      "css": ".ds-sticky-notes-layer { position:absolute; z-index:1000; inset:0 0 auto; height:0; overflow:visible; pointer-events:none; } .ds-sticky-note { position:absolute; display:grid; width:240px; height:190px; grid-template-rows:auto 1fr; color:var(--ink,#182a2e); background:#f1df83; border:1px solid rgba(54,54,42,.2); box-shadow:0 10px 24px rgba(21,29,32,.2); transform:rotate(-.8deg); pointer-events:auto; } .ds-sticky-note header { display:grid; min-height:40px; grid-template-columns:32px minmax(0,1fr); align-items:center; gap:3px; padding:3px; border-bottom:1px solid rgba(52,55,45,.16); } .ds-sticky-note header > div { display:flex; grid-column:1/-1; justify-content:flex-end; gap:2px; width:100%; } .ds-sticky-note button { min-width:32px; min-height:32px; border:0; background:rgba(255,255,255,.2); } .ds-sticky-note textarea { min-height:0; padding:12px 14px; color:inherit; background:transparent; border:0; resize:none; } @media(max-width:480px){.ds-sticky-note header{grid-template-columns:44px minmax(0,1fr)}.ds-sticky-note button{min-width:44px;min-height:44px;}}"
+    },
+    {
+      "name": "Opening Fish Print",
+      "kind": "custom",
+      "description": "A user-provided public-domain fish artwork transformed locally into a transparent natural-paper print and placed in its own right illustration zone on large screens.",
+      "html": "<section class=\"ds-opening\"><div class=\"content\">…title, travelers, agenda…</div><div class=\"ds-opening-fish\" aria-hidden=\"true\"><img src=\"/art/header-fish-paper.png\" alt=\"\"/></div></section>",
+      "css": ".ds-opening { display:grid; grid-template-columns:minmax(380px,520px) minmax(460px,760px); justify-content:center; column-gap:clamp(40px,5vw,76px); background:#173b57; } .ds-opening .content { grid-column:1; text-align:left; } .ds-opening-fish { grid-column:2; width:min(100%,760px); pointer-events:none; } .ds-opening-fish img { display:block; width:100%; height:auto; } @media(max-width:1200px){.ds-opening{grid-template-columns:minmax(0,620px);}.ds-opening .content{text-align:left;}.ds-opening-fish{grid-row:2;}}"
+    },
+    {
+      "name": "Opening Call Agenda",
+      "kind": "nav",
+      "description": "A compact four-row discussion guide on an opaque deep-indigo surface beside the fish print, with anchors and consequences but no progress, status, or completion.",
+      "html": "<aside class=\"ds-opening-agenda\"><header><h2>AGENDA</h2><p>Four decisions for this call.</p></header><nav aria-label=\"Four planning decisions\"><ol><li><a href=\"#travel-dates\"><span>1</span><strong>Travel dates</strong><small>Choose Japan hotel stay dates</small></a></li><li><a href=\"#tokyo\"><span>2</span><strong>Tokyo hotel</strong><small>Choose experience and hotel</small></a></li><li><a href=\"#middle-route\"><span>3</span><strong>Middle-of-trip route</strong><small>Choose and order stops</small></a></li><li><a href=\"#final-city\"><span>4</span><strong>Final city</strong><small>Kyoto or Tokyo</small></a></li></ol></nav></aside>",
+      "css": ".ds-opening-agenda { width: min(360px, 100%); color: #f2ead7; background: rgba(32,38,79,.94); border: 1px solid color-mix(in srgb, #f0d1cf 62%, transparent); box-shadow: 10px 10px 0 rgba(32,38,79,.34); } .ds-opening-agenda header { padding: 18px; color: #f2ead7; border-bottom: 1px solid color-mix(in srgb, #f0d1cf 34%, transparent); } .ds-opening-agenda header h2 { margin: 0; } .ds-opening-agenda ol { margin: 0; padding: 0; list-style: none; } .ds-opening-agenda li + li { border-top: 1px solid color-mix(in srgb, #f0d1cf 24%, transparent); } .ds-opening-agenda a { display: grid; min-height: 64px; grid-template-columns: 28px 1fr; gap: 2px 10px; align-content: center; padding: 9px 12px; color: inherit; text-decoration: none; } .ds-opening-agenda a:hover { background: color-mix(in srgb, #5f426f 66%, transparent); } .ds-opening-agenda a span { display: grid; grid-row: 1 / 3; place-content: center; color: #f2ead7; background: #5f426f; border: 1px solid #e5a5b4; }"
+    },
+    {
+      "name": "Route Rail Navigation",
+      "kind": "nav",
+      "description": "Persistent decision navigation whose four names and order exactly match the planning agenda.",
+      "html": "<nav class=\"ds-route-rail\" aria-label=\"Planning decisions\"><a class=\"ds-route-stop ds-route-stop-active\" href=\"#travel-dates\"><span class=\"ds-route-node\"></span><span>DATES</span></a><a class=\"ds-route-stop\" href=\"#tokyo\"><span class=\"ds-route-node\"></span><span>HOTEL</span></a><a class=\"ds-route-stop\" href=\"#middle-route\"><span class=\"ds-route-node\"></span><span>MIDDLE</span></a><a class=\"ds-route-stop\" href=\"#final-city\"><span class=\"ds-route-node\"></span><span>FINAL</span></a></nav>",
+      "css": ".ds-route-rail { display: flex; min-height: 76px; align-items: stretch; color: rgba(255, 255, 255, 0.62); background: var(--ink, #182a2e); border: 1px solid rgba(255, 255, 255, 0.16); } .ds-route-stop { display: flex; min-width: 84px; min-height: 44px; flex: 1; flex-direction: column; align-items: center; justify-content: center; gap: 7px; color: inherit; text-decoration: none; font-family: \"Bahnschrift Condensed\", \"Yu Gothic UI\", sans-serif; font-size: 0.62rem; font-weight: 800; letter-spacing: 0.08em; } .ds-route-node { width: 10px; height: 10px; background: var(--ink, #182a2e); border: 2px solid rgba(255, 255, 255, 0.48); border-radius: 999px; } .ds-route-stop:hover { color: #fff; } .ds-route-stop-active { color: #fff; } .ds-route-stop-active .ds-route-node { background: var(--coral, #e45d42); border-color: #fff; box-shadow: 0 0 0 4px rgba(228, 93, 66, 0.32); } .ds-route-stop:focus-visible { outline: 3px solid #ffca4b; outline-offset: -4px; } .ds-route-stop:active .ds-route-node { transform: scale(0.9); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Conductor's Working Ledger",
+    "overview": "The interface opens and continues as a route document in active use: printed sheets, timetable labels, punched tickets, ruled maps, and hand-positioned notes. The opening uses a solid inky-blue field, a locally transformed public-domain fish print in natural paper tones, and a crisp paper edge so the gathering moment is distinct without leaving the conductor-ledger world.\n\nFour decisions form the information architecture: Travel dates, Tokyo hotel, Middle-of-trip route, and Final city. A compact call agenda within the opening introduces them, and the persistent decision rail repeats the same names and order. The route, official geography, and generated cartography provide evidence for those choices rather than obscuring them.",
+    "keyCharacteristics": [
+      "Hard-edged transit typography and compact uppercase labels",
+      "Warm punched-paper surfaces against carbon and timetable fields",
+      "Visible rails, rules, nodes, stamps, and comparison marks",
+      "A compact four-step call agenda integrated into an inky-blue fish-print opening",
+      "An official Tokyo ward and rail map paired with a two-step stay-experience ledger",
+      "A projected Central Japan map with a 100-mile scale and consistent diamond markers",
+      "A read-only summary sourced from existing decision state",
+      "Local section notes with drag, keyboard movement, delete, and Undo",
+      "Slightly imperfect placement with precise underlying grids",
+      "Motion that explains travel, progress, selection, or uncertainty"
+    ],
+    "rules": [
+      {
+        "name": "The Ledger Accent Rule",
+        "body": "Carbon and paper carry the interface; route colors identify movement, geography, people, or state and never become ambient decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Administrative Geography Rule",
+        "body": "Ward boundaries use source-derived geometry and restrained group fills; popular neighborhood names are annotations, never substituted boundaries.",
+        "section": "colors"
+      },
+      {
+        "name": "The Condensed Voice Rule",
+        "body": "Use the condensed face for route authority and labels; use the body stack for explanation, comparison, and uncertainty.",
+        "section": "typography"
+      },
+      {
+        "name": "The Printed Offset Rule",
+        "body": "Shadows are hard, directional, and tied to physical paper scale; never substitute soft ambient elevation or glass effects.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do make the route, rail, map, node, or ledger structure visible whenever it carries meaning.",
+      "Do use stamp yellow for temporary attention and focus, not as a broad background theme.",
+      "Do state confirmed facts, open decisions, and useful tradeoffs directly; keep caveats concise and local to the data that needs them.",
+      "Do preserve full keyboard focus and reduced-motion behavior when adding interactions.",
+      "Do stack the working sheets on small screens while keeping the route navigation persistent.",
+      "Do preserve all 23 official ward boundaries, surrounding context, Tokyo Bay, and the distinction between official wards and informal planning names.",
+      "Do regenerate Tokyo geometry through the MLIT N03/N02 → UTM 54N → Mapshaper workflow rather than editing generated SVG paths by hand.",
+      "Do keep focus-ward color restrained, keep rail context subordinate to boundaries, and preserve readable mobile panning and route disclosure."
+    ],
+    "donts": [
+      "Don't turn destinations or options into a generic rounded travel-card grid.",
+      "Don't introduce glassmorphism, soft ambient shadows, excessive gradients, or decorative blur.",
+      "Don't use color without route, traveler, landscape, or interaction meaning.",
+      "Don't replace transit labels and custom cartography with emoji or generic travel imagery.",
+      "Don't treat unresolved choices as errors; show them as intentional open waypoints.",
+      "Don't invent route segments, station coverage, neighborhood boundaries, or Odaiba service that is not present in the cited datasets.",
+      "Don't promote every station label or rail route to equal visual weight; preserve geographic hierarchy and progressive disclosure.",
+      "Don't collapse the mobile map to fit the viewport; preserve its pannable inspection width and swipe instruction."
+    ]
+  }
+}

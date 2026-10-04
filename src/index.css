@@ -1,0 +1,89 @@
+:root {
+  font-family: "Yu Gothic UI", "Meiryo", "Segoe UI", sans-serif;
+  color: #182a2e;
+  background: #d9d5c8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #182a2e;
+  --paper: #f0eddf;
+  --paper-deep: #d9d5c8;
+  --blue: #245f73;
+  --green: #66864b;
+  --coral: #e45d42;
+  --violet: #7b6ca8;
+  --yellow: #dfaa31;
+  --line-hibiya: #8c9692;
+  --line-asakusa: #c96579;
+  --line-fukutoshin: #8b6847;
+  --line-yurikamome: #397da0;
+  --map-ground: #e3e4d4;
+  --map-water: #a9c7c8;
+  --rule: rgba(24, 42, 46, 0.22);
+  --map-section-max-width: 2400px;
+  --map-section-gutter: clamp(20px, 5.2vw, 88px);
+  --map-controls-max-width: 470px;
+  --route-controls-max-width: 430px;
+  --map-section-gap: clamp(24px, 3vw, 54px);
+  --layer-site-content: 0;
+  --layer-traveler-transit: 500;
+  --layer-sticky-notes: 1000;
+  --layer-navigation: 1100;
+  --layer-note-ui: 1200;
+  --layer-skip-link: 1300;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--paper-deep);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+button,
+a[href] {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid #ffca4b;
+  outline-offset: 4px;
+}
+
+::selection {
+  color: #fff;
+  background: var(--blue);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}

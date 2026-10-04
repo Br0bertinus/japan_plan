@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "supportedNodeCount": 11,
+  "requiredPairCount": 56,
+  "cachedPairCount": 56,
+  "uniqueMiddleStops": true,
+  "allOrderChangesSupported": true,
+  "allStartAndEndPairsSupported": true,
+  "noPartialRailRendering": true,
+  "privateAddressFieldsPresent": false
+}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "viewBox": [
+    0,
+    0,
+    1800,
+    1120
+  ],
+  "locations": [
+    {
+      "id": "lake-nojiri",
+      "x": 729.77,
+      "y": 599.06,
+      "status": "option",
+      "statusLabel": "Nagano",
+      "title": "Lake Nojiri",
+      "detail": "Nagano cabin area",
+      "itineraryRelation": "Optional middle stop."
+    },
+    {
+      "id": "shirahone",
+      "x": 629.31,
+      "y": 738.97,
+      "status": "option",
+      "statusLabel": "Nagano",
+      "title": "Shirahone Onsen",
+      "detail": "Nagano",
+      "itineraryRelation": "Optional middle stop."
+    },
+    {
+      "id": "okuhida",
+      "x": 617.01,
+      "y": 730.82,
+      "status": "option",
+      "statusLabel": "Gifu",
+      "title": "Okuhida Onsen-go / Hirayu",
+      "detail": "Gifu",
+      "itineraryRelation": "Optional middle stop."
+    },
+    {
+      "id": "family-location",
+      "x": 900.94,
+      "y": 356.72,
+      "status": "option",
+      "statusLabel": "Niigata",
+      "title": "James Brown",
+      "detail": "Niigata",
+      "itineraryRelation": "Optional middle stop."
+    }
+  ],
+  "familyLocationSource": {
+    "dataset": "MLIT National Land Numerical Information N03 2025",
+    "municipalityCode": "15307",
+    "method": "Area-weighted centroid of official municipality polygons, shown in its true position on the fitted regional map.",
+    "privacy": "No street address or house-level coordinate is stored."
+  }
+}

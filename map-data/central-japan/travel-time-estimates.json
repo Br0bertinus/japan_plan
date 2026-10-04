@@ -1,0 +1,58 @@
+{
+  "preparedAt": "2026-10-03",
+  "travelWindow": "May / June 2027",
+  "status": "Planning estimates based on current 2026 services. Recheck when May / June 2027 timetables open.",
+  "assumptions": [
+    "Trip starts at the Lake Nojiri cabin.",
+    "Public transit begins with a 10-20 minute taxi to Kurohime Station.",
+    "Hybrid travel uses taxi to Nagano Station, Limited Express Shinano to Matsumoto, then a prebooked taxi.",
+    "Private-road estimates assume a car is already at the cabin. Picking up a rental in Nagano adds roughly 60-90 minutes.",
+    "Ranges include ordinary connection time but not major traffic, missed connections, or meal stops."
+  ],
+  "inbound": {
+    "shirahone": {
+      "publicTransit": {
+        "range": "4:00-5:00",
+        "route": "Cabin taxi -> Kurohime -> Nagano -> Matsumoto -> Shin-Shimashima/Sawando -> Shirahone"
+      },
+      "railTaxi": {
+        "range": "3:15-4:00",
+        "route": "Taxi to Nagano -> Limited Express Shinano to Matsumoto -> prebooked taxi to Shirahone"
+      },
+      "privateRoad": {
+        "range": "2:30-3:15",
+        "route": "Direct rental car or full-distance prebooked taxi",
+        "osrmBaselineMinutes": 132,
+        "distanceKm": 139
+      }
+    },
+    "okuhida": {
+      "publicTransit": {
+        "range": "3:35-4:30",
+        "route": "Cabin taxi -> Kurohime -> Nagano -> Matsumoto -> direct bus to Hirayu"
+      },
+      "railTaxi": {
+        "range": "2:45-3:30",
+        "route": "Taxi to Nagano -> Limited Express Shinano to Matsumoto -> prebooked taxi to Hirayu"
+      },
+      "privateRoad": {
+        "range": "2:40-3:20",
+        "route": "Direct rental car or full-distance prebooked taxi",
+        "osrmBaselineMinutes": 138,
+        "distanceKm": 148.3
+      }
+    }
+  },
+  "onward": {
+    "shirahone": {
+      "tokyo": "4:45-5:30 via Matsumoto and Limited Express Azusa",
+      "kyoto": "5:15-6:15 via Matsumoto, Nagoya, and Tokaido Shinkansen",
+      "privateRoad": "4:30-5:45 to either city before traffic or stops"
+    },
+    "okuhida": {
+      "tokyo": "4:45-5:30 by direct Hirayu-Shinjuku highway bus or via Matsumoto",
+      "kyoto": "4:45-5:45 via Takayama/Nagoya rail; 5:15-6:15 by Takayama-Kyoto bus",
+      "privateRoad": "4:30-5:30 to either city before traffic or stops"
+    }
+  }
+}

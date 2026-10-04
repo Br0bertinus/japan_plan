@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-04T01:10:11.275Z",
+  "officialRegion": {
+    "source": "MLIT N03 2025 administrative boundaries",
+    "wardCount": 23,
+    "dissolvedFeatureCount": 1
+  },
+  "railClipping": {
+    "method": "Routes are simplified, then clipped to the dissolved projected union of Tokyo’s 23 special wards.",
+    "routeCount": 16,
+    "checkedVertices": 2520,
+    "checkedSegmentSamples": 6411,
+    "outsideSamples": 0,
+    "valid": true
+  },
+  "hotelDecisionBaseline": {
+    "method": "Bounds include all five hotels, all stay-decision stations, linked orientation stations, and the four hotel wards, then add controlled padding and fit the map aspect ratio.",
+    "viewBox": {
+      "x": 144.9,
+      "y": 200.6,
+      "width": 495.8,
+      "height": 357
+    },
+    "visibleHotels": 5,
+    "visibleStayStations": 6
+  },
+  "publicDefault100View": {
+    "method": "The approved public 100% view uses the complete generated viewport; closer inspection scales this same view without changing geography.",
+    "viewBox": {
+      "x": 0,
+      "y": 0,
+      "width": 1000,
+      "height": 720
+    }
+  }
+}

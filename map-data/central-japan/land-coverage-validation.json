@@ -1,0 +1,244 @@
+{
+  "status": "passed",
+  "validationMethod": "Loaded every MLIT N03 2025 prefecture package, fitted the map from full Niigata plus required trip features, then rendered every official administrative feature whose bounds intersect the buffered viewport.",
+  "allPrefecturePackagesLoaded": true,
+  "prefecturePackageCount": 47,
+  "fittedMapBounds": {
+    "minLon": 135.479055,
+    "minLat": 34.74462499999999,
+    "maxLon": 140.179904669,
+    "maxLat": 38.793583198
+  },
+  "bufferedContextBounds": {
+    "minLon": 134.82905499999998,
+    "minLat": 34.09462499999999,
+    "maxLon": 140.829904669,
+    "maxLat": 39.443583198
+  },
+  "renderedAdministrativeFeatureCount": 25499,
+  "intersectingPackages": [
+    {
+      "code": "03",
+      "name": "Iwate",
+      "officialName": "岩手県",
+      "featureCount": 4
+    },
+    {
+      "code": "04",
+      "name": "Miyagi",
+      "officialName": "宮城県",
+      "featureCount": 21
+    },
+    {
+      "code": "05",
+      "name": "Akita",
+      "officialName": "秋田県",
+      "featureCount": 48
+    },
+    {
+      "code": "06",
+      "name": "Yamagata",
+      "officialName": "山形県",
+      "featureCount": 721
+    },
+    {
+      "code": "07",
+      "name": "Fukushima",
+      "officialName": "福島県",
+      "featureCount": 63
+    },
+    {
+      "code": "08",
+      "name": "Ibaraki",
+      "officialName": "茨城県",
+      "featureCount": 219
+    },
+    {
+      "code": "09",
+      "name": "Tochigi",
+      "officialName": "栃木県",
+      "featureCount": 28
+    },
+    {
+      "code": "10",
+      "name": "Gunma",
+      "officialName": "群馬県",
+      "featureCount": 37
+    },
+    {
+      "code": "11",
+      "name": "Saitama",
+      "officialName": "埼玉県",
+      "featureCount": 84
+    },
+    {
+      "code": "12",
+      "name": "Chiba",
+      "officialName": "千葉県",
+      "featureCount": 2070
+    },
+    {
+      "code": "13",
+      "name": "Tokyo",
+      "officialName": "東京都",
+      "featureCount": 1651
+    },
+    {
+      "code": "14",
+      "name": "Kanagawa",
+      "officialName": "神奈川県",
+      "featureCount": 1247
+    },
+    {
+      "code": "15",
+      "name": "Niigata",
+      "officialName": "新潟県",
+      "featureCount": 2704
+    },
+    {
+      "code": "16",
+      "name": "Toyama",
+      "officialName": "富山県",
+      "featureCount": 59
+    },
+    {
+      "code": "17",
+      "name": "Ishikawa",
+      "officialName": "石川県",
+      "featureCount": 1710
+    },
+    {
+      "code": "18",
+      "name": "Fukui",
+      "officialName": "福井県",
+      "featureCount": 2943
+    },
+    {
+      "code": "19",
+      "name": "Yamanashi",
+      "officialName": "山梨県",
+      "featureCount": 36
+    },
+    {
+      "code": "20",
+      "name": "Nagano",
+      "officialName": "長野県",
+      "featureCount": 79
+    },
+    {
+      "code": "21",
+      "name": "Gifu",
+      "officialName": "岐阜県",
+      "featureCount": 48
+    },
+    {
+      "code": "22",
+      "name": "Shizuoka",
+      "officialName": "静岡県",
+      "featureCount": 1827
+    },
+    {
+      "code": "23",
+      "name": "Aichi",
+      "officialName": "愛知県",
+      "featureCount": 1033
+    },
+    {
+      "code": "24",
+      "name": "Mie",
+      "officialName": "三重県",
+      "featureCount": 6818
+    },
+    {
+      "code": "25",
+      "name": "Shiga",
+      "officialName": "滋賀県",
+      "featureCount": 19
+    },
+    {
+      "code": "26",
+      "name": "Kyoto",
+      "officialName": "京都府",
+      "featureCount": 998
+    },
+    {
+      "code": "27",
+      "name": "Osaka",
+      "officialName": "大阪府",
+      "featureCount": 143
+    },
+    {
+      "code": "28",
+      "name": "Hyogo",
+      "officialName": "兵庫県",
+      "featureCount": 318
+    },
+    {
+      "code": "29",
+      "name": "Nara",
+      "officialName": "奈良県",
+      "featureCount": 40
+    },
+    {
+      "code": "30",
+      "name": "Wakayama",
+      "officialName": "和歌山県",
+      "featureCount": 531
+    }
+  ],
+  "previouslyOmittedIntersectingPackages": [
+    {
+      "code": "03",
+      "name": "Iwate",
+      "officialName": "岩手県",
+      "featureCount": 4
+    },
+    {
+      "code": "04",
+      "name": "Miyagi",
+      "officialName": "宮城県",
+      "featureCount": 21
+    },
+    {
+      "code": "05",
+      "name": "Akita",
+      "officialName": "秋田県",
+      "featureCount": 48
+    },
+    {
+      "code": "06",
+      "name": "Yamagata",
+      "officialName": "山形県",
+      "featureCount": 721
+    },
+    {
+      "code": "07",
+      "name": "Fukushima",
+      "officialName": "福島県",
+      "featureCount": 63
+    },
+    {
+      "code": "08",
+      "name": "Ibaraki",
+      "officialName": "茨城県",
+      "featureCount": 219
+    },
+    {
+      "code": "09",
+      "name": "Tochigi",
+      "officialName": "栃木県",
+      "featureCount": 28
+    }
+  ],
+  "niigata": {
+    "officialFeatureCount": 2704,
+    "bounds": {
+      "minLon": 137.634984747,
+      "minLat": 36.736528775,
+      "maxLon": 139.899904669,
+      "maxLat": 38.553583198
+    },
+    "fullyInsideFittedMap": true
+  },
+  "seiroMarkerInsideMainViewport": true
+}
