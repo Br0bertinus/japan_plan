@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "test": "node --test tests/routeBuilderState.test.ts tests/planningSummaryState.test.ts tests/stickyNotesState.test.ts tests/distance.test.ts tests/tokyoLabelLayout.test.ts tests/scenePropModel.test.ts tests/travelerChoreography.test.ts tests/travelerJourneyState.test.ts tests/headerPrints.test.ts",
+    "test": "node --test tests/routeBuilderState.test.ts tests/planningSummaryState.test.ts tests/stickyNotesState.test.ts tests/distance.test.ts tests/tokyoLabelLayout.test.ts tests/scenePropModel.test.ts tests/travelerChoreography.test.ts tests/travelerJourneyState.test.ts tests/headerPrints.test.ts tests/onsenMacaque.test.ts",
     "maps:central": "npm --prefix map-data/central-japan run build",
     "maps:tokyo": "node scripts/build-tokyo-wards.mjs",
     "preview": "vite preview"

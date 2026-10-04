@@ -883,8 +883,102 @@ main {
 .scene-traveler,
 .scene-traveler-body,
 .scene-traveler-head,
-.scene-clothing-bundle {
+.scene-clothing-bundle,
+.scene-prop__macaque,
+.scene-prop__macaque-body-plane {
   pointer-events: none;
+}
+
+.scene-prop__macaque-body {
+  fill: color-mix(in srgb, var(--paper-deep) 55%, var(--paper));
+  stroke: var(--ink);
+  stroke-width: 4px;
+}
+
+.scene-prop__macaque-ear {
+  fill: color-mix(in srgb, var(--coral) 25%, var(--paper-deep));
+  stroke: var(--ink);
+  stroke-width: 3.5px;
+}
+
+.scene-prop__macaque-fur {
+  fill: color-mix(in srgb, var(--paper-deep) 55%, var(--paper));
+  stroke: var(--ink);
+  stroke-width: 4px;
+}
+
+.scene-prop__macaque-face {
+  fill: color-mix(in srgb, var(--coral) 52%, var(--paper-deep));
+  stroke: var(--ink);
+  stroke-width: 3px;
+}
+
+.scene-prop__macaque-eyes circle,
+.scene-prop__macaque-nose {
+  fill: var(--ink);
+}
+
+.scene-prop__macaque-brow,
+.scene-prop__macaque-mouth {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 2px;
+  stroke-linecap: round;
+}
+
+.scene-prop__macaque-sway {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: macaque-bob 5.4s ease-in-out infinite;
+}
+
+.scene-prop__macaque-swim {
+  animation: macaque-swim 16s ease-in-out infinite;
+}
+
+.scene-prop__macaque-ripple {
+  opacity: 0.6;
+}
+
+.scene-prop__macaque-eyes {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: macaque-blink 6.2s ease-in-out infinite;
+}
+
+@keyframes macaque-swim {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  34% {
+    transform: translate(26px, 1px);
+  }
+  68% {
+    transform: translate(-26px, -1px);
+  }
+}
+
+@keyframes macaque-bob {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-2px) rotate(-1deg);
+  }
+}
+
+@keyframes macaque-blink {
+  0%,
+  90%,
+  100% {
+    transform: scaleY(1);
+  }
+  93%,
+  96% {
+    transform: scaleY(0.12);
+  }
 }
 
 .scene-traveler-motion,

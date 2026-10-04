@@ -230,7 +230,7 @@ export function OnsenSceneProp({
         <path className="scene-prop__water" d={basinPath} />
         <g className="scene-prop__steam">
           <path d="M235 159C215 142 242 128 229 111C220 98 230 87 242 79" />
-          <path d="M365 148C346 130 374 116 360 98C350 85 361 72 374 64" />
+          <path d="M407 148C388 130 416 116 402 98C392 85 403 72 416 64" />
           <path d="M496 160C477 142 505 127 491 109C481 96 492 84 505 76" />
         </g>
       </g>
@@ -265,6 +265,42 @@ export function OnsenSceneProp({
         className="scene-prop__traveler-heads-front"
       >
         {heads}
+      </g>
+      <g
+        data-scene-layer="macaque-foreground"
+        className="scene-prop__macaque is-idle"
+        transform="translate(371 218)"
+        aria-hidden="true"
+        data-onsen-resident="macaque-head-and-shoulders"
+      >
+        <g className="scene-prop__macaque-swim">
+          <g className="scene-prop__macaque-sway">
+            <g transform="scale(.55)">
+              <path
+                className="scene-prop__macaque-body"
+                d="M-20 38C-20 27 -12 20 0 19C13 19 22 27 22 38Z"
+              />
+              <circle className="scene-prop__macaque-ear" cx="-23" cy="-6" r="6" />
+              <circle className="scene-prop__macaque-ear" cx="23" cy="-6" r="6" />
+              <path
+                className="scene-prop__macaque-fur"
+                d="M-27 18C-29 10 -29 2 -25 -4C-29 -12 -25 -21 -17 -23C-14 -31 -4 -35 3 -32C11 -35 21 -29 22 -21C29 -17 29 -7 26 -1C30 7 28 17 21 21C16 28 7 30 0 27C-8 31 -18 27 -20 21C-23 22 -26 21 -27 18Z"
+              />
+              <path
+                className="scene-prop__macaque-face"
+                d="M1 -21C-5 -26 -14 -22 -15 -14C-17 -7 -11 -2 -7 0C-12 5 -10 15 -6 21C-4 25 -1 28 1 28C4 28 7 25 9 21C13 15 15 5 10 0C14 -2 20 -7 18 -14C17 -22 7 -26 1 -21Z"
+              />
+              <path className="scene-prop__macaque-brow" d="M-9 -10Q-4 -14 0 -10M4 -10Q9 -14 13 -10" />
+              <g className="scene-prop__macaque-eyes">
+                <circle cx="-4" cy="-7" r="1.7" />
+                <circle cx="8" cy="-7" r="1.7" />
+              </g>
+              <ellipse className="scene-prop__macaque-nose" cx="2" cy="9" rx="2.2" ry="1.7" />
+              <path className="scene-prop__macaque-mouth" d="M-4 16Q2 20 8 16" />
+              <path className="scene-prop__ripple scene-prop__macaque-ripple" d="M-31 37Q0 29 31 37" />
+            </g>
+          </g>
+        </g>
       </g>
     </ScenePropSvg>
   )
